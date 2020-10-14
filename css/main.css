@@ -90,13 +90,13 @@ section{
   width: 330px;
   height: 30px;
   padding: 6px 12px;
-  border: 1px #a0a0a0;
+  border: 1px solid #a0a0a0;
 }
 .search-button{
   border-color: #a0a0a0;
   color: #ffffff;
-  height: 100px;
-  width: 30px;
+  width: 100px;
+  height: 30px;
   border: 0;
   padding: 0;
 }
@@ -105,7 +105,7 @@ section{
   width: 575px;
   margin-top: 10px;
 }
-li a{
+.nav-list li a{
   font: 16px;
   font-weight: 700;
   text-transform: uppercase;
@@ -120,7 +120,7 @@ li a{
   color: #364147;
   font-size: 18px;
 }
-.account li{
+.account a{
   font-size: 14px;
 }
 .profile-pic{
